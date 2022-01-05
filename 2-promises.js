@@ -1,20 +1,4 @@
-/**
- * ES6 Promises
- *
- * @Reference:
- * https://ponyfoo.com/articles/es6-promises-in-depth
- * http://www.2ality.com/2014/10/es6-promises-api.html
- * http://www.mattgreer.org/articles/promises-in-wicked-detail/
- * http://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html
- * https://dev.to/azizhk110/javascript-promise-chaining--error-handling
- *
- * @Exercise:
- * http://jsbin.com/tuqukakawo/1/edit?js,console,output
- */
 
-/**
- * PROMISES EXAMPLES
- */
 var p = fetch('foo'); // Fetch API is a simplification of XMLHttpRequest
 p.then(res => {
   // handle response
